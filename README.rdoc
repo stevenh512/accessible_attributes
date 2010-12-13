@@ -1,6 +1,6 @@
 = accessible_attributes
 
-Dynamic attr_accessible for Active Record, inspired by Ryan Bates {Railscast
+Dynamic attr_accessible for Active Record, inspired by Ryan Bates {Railscasts
 episode 237}[http://railscasts.com/episodes/237-dynamic-attr-accessible].
 
 == Installation

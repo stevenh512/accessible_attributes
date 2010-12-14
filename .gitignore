@@ -1,8 +1,9 @@
 *.gem
 .bundle
 .redcar
-log/*
-pkg/*
+.yardoc
+log
+pkg
 doc/*
 spec/dummy/db/*.sqlite3
 spec/dummy/log/*.log

@@ -22,7 +22,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency("rspec", "~> 2.3.0")
   s.add_development_dependency("rspec-rails", "~> 2.3.0")
   s.add_development_dependency("sqlite3-ruby", "~> 1.3.2")
-  s.add_development_dependency("rdoc", "~> 2.5.11")
+  s.add_development_dependency("yard", "~> 0.6.3")
+  s.add_development_dependency("rdiscount", "~> 1.6.5")
   s.add_development_dependency("rake", "~> 0.8.7")
 
   s.files         = `git ls-files`.split("\n")

@@ -6,16 +6,17 @@ rescue LoadError
 end
 Bundler::GemHelper.install_tasks
 
-require 'rdoc/task'
-require 'rspec/core'
-require 'rspec/core/rake_task'
+require 'yard'
 
-RSpec::Core::RakeTask.new(:spec)
+YARD::Rake::YardocTask.new (:doc) do |t|
+  t.files   = ['README.md', 'lib/**/*.rb']   # optional
+  t.options = ['-o doc'] # optional
+end
 
-RDoc::Task.new(:rdoc => "rdoc", :clobber_rdoc => "rdoc:clean", :rerdoc => "rdoc:force") do |rd|
-  rd.rdoc_dir = "doc"
-  rd.title = "AccessibleAttributes"
-  rd.main = "README.rdoc"
-  rd.rdoc_files.include("README.rdoc", "lib/**/*.rb")
-  #rd.external = true
+namespace :doc do
+  desc 'Cleanup generated docs'
+  task :clean do
+    system "rm -Rfv doc"
+    system "rm -Rfv .yardoc"
+  end
 end

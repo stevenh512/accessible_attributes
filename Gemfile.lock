@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    accessible_attributes (0.0.2)
+    accessible_attributes (0.0.3)
       rails (~> 3.0.3)
 
 GEM

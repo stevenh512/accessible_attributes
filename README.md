@@ -5,7 +5,7 @@ episode 237.
 
 
 
-[![Click here to lend your support to: mediatags - meta-data tags as JSON and make a donation at www.pledgie.com !][2]][1]
+[![Click here to lend your support to: accessible_attributes and make a donation at www.pledgie.com !][2]][1]
 
 ## Installation
 

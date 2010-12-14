@@ -3,6 +3,10 @@
 Dynamic attr_accessible for Active Record, inspired by Ryan Bates [Railscasts]
 episode 237.
 
+
+
+[![Click here to lend your support to: mediatags - meta-data tags as JSON and make a donation at www.pledgie.com !][2]][1]
+
 ## Installation
 
 Add the following line to your Gemfile
@@ -43,5 +47,8 @@ For more information, see the [Railscasts] episode or read it on [Asciicasts]
 
 Copyright (c) 2010 Steven Hancock. See MIT-LICENSE for details.
 
+
+[1]: http://www.pledgie.com/campaigns/14171
+[2]: http://www.pledgie.com/campaigns/14171.png?skin_name=chrome
 [Railscasts]: http://railscasts.com/episodes/237-dynamic-attr-accessible
 [Asciicasts]: http://asciicasts.com/episodes/237-dynamic-attr-accessible

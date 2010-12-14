@@ -9,8 +9,8 @@ Bundler::GemHelper.install_tasks
 require 'yard'
 
 YARD::Rake::YardocTask.new (:doc) do |t|
-  t.files   = ['README.md', 'lib/**/*.rb']   # optional
-  t.options = ['-o doc'] # optional
+  t.files   = ['README.md', 'lib/**/*.rb']
+  t.options = ['-o', 'doc']
 end
 
 namespace :doc do

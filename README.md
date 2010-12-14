@@ -1,19 +1,19 @@
-= accessible_attributes
+# accessible_attributes
 
-Dynamic attr_accessible for Active Record, inspired by Ryan Bates {Railscasts
-episode 237}[http://railscasts.com/episodes/237-dynamic-attr-accessible].
+Dynamic attr_accessible for Active Record, inspired by Ryan Bates [Railscasts]
+episode 237.
 
-== Installation
+## Installation
 
 Add the following line to your Gemfile
     gem 'accessible_attributes'
 
-Then run <tt>bundle install</tt> and you're good to go
+Then run bundle `install` and you're good to go
 
-== Usage
+## Usage
 
-This gem sets <tt>attr_accessible</tt> to <tt>nil</tt> on <tt>ActiveRecord::Base</tt>, requiring you to use
-<tt>attr_accessible</tt> in all of your Active Record models to set which attributes you
+This gem sets `attr_accessible` to `nil` on `ActiveRecord::Base`, requiring you to use
+`attr_accessible` in all of your Active Record models to set which attributes you
 want to be able to mass-assign by default.
 
 In your controllers, to mass-assign attributes that are not enabled by default, see the following example
@@ -21,14 +21,14 @@ In your controllers, to mass-assign attributes that are not enabled by default, 
     @model.accessible = :my_attribute
     @model.attributes = params[:model]
 
-You can also set accessible to :all to make all attributes available for mass-assignment
+You can also set `accessible` to `:all` to make all attributes available for mass-assignment
     @model = Model.new
     @model.accessible = :all
     @model.update_attributes(params[:model])
 
-For more information, see the {Railscasts episode}[http://railscasts.com/episodes/237-dynamic-attr-accessible] or {read it on Asciicasts}[http://asciicasts.com/episodes/237-dynamic-attr-accessible]
+For more information, see the [Railscasts] episode or read it on [Asciicasts]
 
-== Note on Patches/Pull Requests
+## Note on Patches/Pull Requests
 
 * Fork the project.
 * Make your feature addition or bug fix.
@@ -43,3 +43,5 @@ For more information, see the {Railscasts episode}[http://railscasts.com/episode
 
 Copyright (c) 2010 Steven Hancock. See MIT-LICENSE for details.
 
+[Railscasts]: http://railscasts.com/episodes/237-dynamic-attr-accessible
+[Asciicasts]: http://asciicasts.com/episodes/237-dynamic-attr-accessible

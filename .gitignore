@@ -2,7 +2,7 @@
 .bundle
 .redcar
 .yardoc
-log
+log/*.log
 pkg
 doc/*
 spec/dummy/db/*.sqlite3

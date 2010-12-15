@@ -1,5 +1,5 @@
 require 'active_record'
-require 'active_record/base'
+require 'action_dispatch'
 require 'active_record/session_store'
 
 ActiveRecord::Base.class_eval do

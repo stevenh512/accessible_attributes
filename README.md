@@ -12,7 +12,7 @@ episode 237.
 Add the following line to your Gemfile
     gem 'accessible_attributes'
 
-Then run bundle `install` and you're good to go
+Then run `bundle install` and you're good to go
 
 ## Usage
 

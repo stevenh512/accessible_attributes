@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    accessible_attributes (0.0.3)
+    accessible_attributes (0.0.4)
       actionpack (~> 3.0.3)
       activerecord (~> 3.0.3)
 

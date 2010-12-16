@@ -9,10 +9,10 @@ episode 237.
 
 ## Installation
 
-Add the following line to your Gemfile
+Add the following line to your `Gemfile`
     gem 'accessible_attributes'
 
-Then run `bundle install` and you're good to go
+Then run `bundle install` and you're good to go.
 
 ## Usage
 
@@ -43,12 +43,12 @@ For more information, see the [Railscasts] episode or read it on [Asciicasts]
   commit by itself I can ignore when I pull)
 * Send me a pull request. Bonus points for topic branches.
 
-== Copyright
+## Copyright
 
 Copyright (c) 2010 Steven Hancock. See MIT-LICENSE for details.
-
 
 [1]: http://www.pledgie.com/campaigns/14171
 [2]: http://www.pledgie.com/campaigns/14171.png?skin_name=chrome
 [Railscasts]: http://railscasts.com/episodes/237-dynamic-attr-accessible
 [Asciicasts]: http://asciicasts.com/episodes/237-dynamic-attr-accessible
+

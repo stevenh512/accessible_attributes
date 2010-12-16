@@ -1,3 +1,8 @@
 module AccessibleAttributes
-  VERSION = "0.0.4"
+  module Version
+    MAJOR  = 0
+    MINOR  = 0
+    PATCH  = 4
+    STRING = [MAJOR, MINOR, PATCH].join(".")
+  end
 end

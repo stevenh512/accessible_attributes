@@ -4,7 +4,7 @@ require "accessible_attributes/version"
 
 Gem::Specification.new do |s|
   s.name        = "accessible_attributes"
-  s.version     = AccessibleAttributes::VERSION
+  s.version     = AccessibleAttributes::Version::STRING
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Steven Hancock"]
   s.email       = ["stevenh512@gmail.com"]

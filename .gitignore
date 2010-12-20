@@ -1,6 +1,7 @@
 *.gem
 .bundle
 .redcar
+.rvmrc
 .yardoc
 log/*.log
 pkg

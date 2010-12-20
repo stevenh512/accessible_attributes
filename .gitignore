@@ -3,6 +3,7 @@
 .redcar
 .rvmrc
 .yardoc
+Gemfile.lock
 log/*.log
 pkg
 doc/*

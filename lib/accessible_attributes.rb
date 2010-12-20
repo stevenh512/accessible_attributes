@@ -1,19 +1,7 @@
-require 'active_record'
-require 'action_dispatch'
-require 'active_record/session_store'
+require 'active_support/concern'
+require 'accessible_attributes/active_record/base'
+require 'accessible_attributes/active_record/session_store'
 
-ActiveRecord::Base.class_eval do
-  attr_accessible
-  attr_accessor :accessible
+ActiveRecord::Base.send(:include, AccessibleAttributes::ActiveRecord::Base)
 
-  private
-  def mass_assignment_authorizer
-    if accessible == :all
-      self.class.protected_attributes
-    else
-      super + (accessible || [])
-    end
-  end
-end
-
-ActiveRecord::SessionStore::Session.send(:attr_accessible, :session_id)
+ActiveRecord::SessionStore::Session.send(:include, AccessibleAttributes::ActiveRecord::SessionStore)

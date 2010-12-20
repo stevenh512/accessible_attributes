@@ -1,9 +1,10 @@
 PATH
   remote: .
   specs:
-    accessible_attributes (0.0.4)
+    accessible_attributes (0.0.5.pre)
       actionpack (~> 3.0.3)
       activerecord (~> 3.0.3)
+      activesupport (~> 3.0.3)
 
 GEM
   remote: http://rubygems.org/

@@ -1,4 +1,4 @@
-# accessible_attributes
+# accessible_attributes [![Travis-CI][4]][3]
 
 Dynamic attr_accessible for Active Record, inspired by Ryan Bates [Railscasts]
 episode 237.
@@ -49,6 +49,8 @@ Copyright (c) 2010 Steven Hancock. See MIT-LICENSE for details.
 
 [1]: http://www.pledgie.com/campaigns/14171
 [2]: http://www.pledgie.com/campaigns/14171.png?skin_name=chrome
+[3]: http://travis-ci.org/stevenh512/accessible_attributes
+[4]: http://travis-ci.org/stevenh512/accessible_attributes.png
 [Railscasts]: http://railscasts.com/episodes/237-dynamic-attr-accessible
 [Asciicasts]: http://asciicasts.com/episodes/237-dynamic-attr-accessible
 

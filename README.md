@@ -17,8 +17,7 @@ Then run `bundle install` and you're good to go.
 ## Usage
 
 This gem sets `attr_accessible` to `nil` on `ActiveRecord::Base`, requiring you to use
-`attr_accessible` in all of your Active Record models to set which attributes you
-want to be able to mass-assign by default.
+`attr_accessible` in all of your Active Record models to enable mass-assignment.
 
 In your controllers, to mass-assign attributes that are not enabled by default, see the following example
     @model = Model.new
@@ -45,7 +44,7 @@ For more information, see the [Railscasts] episode or read it on [Asciicasts]
 
 ## Copyright
 
-Copyright (c) 2010 Steven Hancock. See MIT-LICENSE for details.
+Copyright (c) 2011 Steven Hancock. See MIT-LICENSE for details.
 
 [1]: http://www.pledgie.com/campaigns/14171
 [2]: http://www.pledgie.com/campaigns/14171.png?skin_name=chrome

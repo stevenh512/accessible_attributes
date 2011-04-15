@@ -3,6 +3,7 @@ module AccessibleAttributes
     MAJOR  = 0
     MINOR  = 0
     PATCH  = 6
-    STRING = [MAJOR, MINOR, PATCH, "pre"].join(".")
+    PRE = nil
+    STRING = [MAJOR, MINOR, PATCH, PRE].compact.join(".")
   end
 end

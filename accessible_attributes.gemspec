@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Steven Hancock"]
   s.email       = ["stevenh512@gmail.com"]
-  s.homepage    = "https://github.com/stevenh512/accessible_attributes"
+  s.homepage    = "https://github.com/EZMedium/accessible_attributes"
   s.summary     = %q{Dynamic attr_accessible for Active Record}
   s.description = %q{Dynamic attr_accessible for Active Record, inspired by Ryan Bates Railscasts episode 237}
 
